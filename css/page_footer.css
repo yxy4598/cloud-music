@@ -1,0 +1,103 @@
+.footer {
+  height: 172px;
+  border-top: 1px solid #d3d3d3;
+  background: #f2f2f2;
+}
+
+.footer .content {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.footer .content .wrap {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #333;
+}
+
+.footer .content .wrap .left-area {
+  width: 520px;
+  padding-top: 15px;
+  line-height: 24px;
+}
+
+.footer .content .wrap .left-area a:hover {
+  text-decoration: underline;
+}
+
+.footer .content .wrap .left-area .link > a {
+  color: #999;
+}
+
+.footer .content .wrap .left-area .link .line {
+  margin: 0 2px;
+  color: #c2c2c2;
+}
+
+.footer .content .wrap .left-area .infor,
+.footer .content .wrap .left-area .infor .alink{
+  color: #666;
+}
+
+.footer .content .wrap .enter {
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  margin-top: 33px;
+}
+
+.footer .content .wrap .unit {
+  width: 60px;
+  height: 70px;
+  text-align: center;
+  color: #666;
+}
+
+.footer .content .wrap .unit .logo {
+  display: block;
+  width: 50px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.footer .content .wrap .unit .title {
+  position: relative;
+  width: 72px;
+  height: 14px;
+  top: 6px;
+}
+
+.footer .content .wrap .unit .title.tt-amped {
+  right: 5px;
+}
+
+.footer .content .wrap .unit .title.tt-auth {
+  left: 6px;
+}
+
+.footer .content .wrap .unit .title.tt-musician {
+  left: 3px;
+}
+
+.footer .content .wrap .unit .title.tt-reward {
+  left: 6px;
+}
+
+.footer .content .wrap .unit .title.tt-cash {
+  left: 4px;
+}
+
+.footer .back {
+  position: fixed;
+  width: 49px;
+  height: 45px;
+  text-indent: -9999px;
+
+  right: 210px;
+  bottom: 150px;
+}
+
+.footer .back:hover {
+  background-position: -325px -47px;
+}

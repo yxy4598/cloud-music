@@ -1,0 +1,128 @@
+/* main右侧区域样式 */
+.main .area .area-right {
+  width: 250px;
+  font-size: 12px;
+}
+
+.main .area .area-right .login {
+  height: 126px;
+  background: url(../image/main_sprite.png);
+
+}
+
+.main .area .area-right .login .desc {
+  width: 205px;
+  color: #333;
+  padding: 16px 0;
+  margin: 0 auto;
+}
+
+.main .area .area-right .login .user-login {
+  display: block;
+  width: 100px;
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 1px 0 #8a060b;
+  margin: 0 auto;
+  background: url(../image/main_sprite.png) 0 -195px;
+}
+
+.main .area .area-right .login .user-login:hover {
+  background-position: -110px -195px;
+}
+
+.main .area .area-right .settle-singer {
+  margin: 15px 20px 0;
+}
+
+.main .area .area-right .settle-singer .list {
+  margin: 6px 0 14px 0;
+}
+
+.main .area .area-right .settle-singer .list .item {
+  display: flex;
+  width: 210px;
+  height: 62px;
+  margin-top: 14px;
+  background-color: #fafafa;
+}
+
+.main .area .area-right .settle-singer .list .item:hover {
+  background: #f4f4f4;
+}
+
+.main .area .area-right .settle-singer .list .item .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 14px;
+  padding-right: 20px;
+  
+  border: 1px solid #ccc;
+  border-left: 0;
+
+  /* 为了info里desc的文本不会扩展我们需要设置 overflow: hidden */
+  overflow: hidden;
+}
+
+.main .area .area-right .settle-singer .list .item .info .singer {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main .area .area-right .settle-singer .list .item .info .desc {
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.main .area .area-right .settle-singer .apply {
+  display: inline-block;
+  width: 210px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  border-radius: 4px;
+}
+
+.main .area .area-right .hot-author {
+  margin: 15px 20px 0;
+}
+
+.main .area .area-right .hot-author .hot-list {
+  margin-top: 20px;
+}
+
+.main .area .area-right .hot-author .hot-list .item {
+  display: flex;
+  width: 210px;
+  height: 50px;
+}
+
+.main .area .area-right .hot-author .hot-list .item .album {
+  width: 40px;
+  height: 40px;
+
+  margin-right: 10px;
+}
+
+.main .area .area-right .hot-author .hot-list .item .info {
+  /* 这里有一个解决过的bug 小小的案例 */
+  overflow: hidden;
+}
+
+.main .area .area-right .hot-author .hot-list .item .info .title {
+  line-height: 21px;
+  color: #000;
+}
+
+.main .area .area-right .hot-author .hot-list .item .info .desc {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+}

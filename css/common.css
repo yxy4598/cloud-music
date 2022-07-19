@@ -1,0 +1,169 @@
+body {
+  font: 14px Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+a {
+  font-size: 12px;
+  color: #333;
+}
+
+.wrapper_01 {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper_02 {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.wrapper_03 {
+  width: 982px;
+  margin: 0 auto;
+}
+
+/* top_sprite */
+.topbar_sprite {
+  display: inline-block;
+  background-image: url(../image/topbar_sprite.png);
+}
+
+.topbar_icon_hot {
+  width: 28px;
+  height: 19px;
+  background-position: -190px 0;
+}
+
+/* btn_sprite */
+.btn_sprite {
+  display: inline-block;
+  background: url(../image/btn_sprite.png) no-repeat;
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.btn_type_normal_sup {
+  background-position: right -100px;
+  padding-right: 4px;
+}
+
+.btn_type_normal_sub {
+  display: block;
+  background-position: 0 -59px;
+  padding-left: 3px;
+}
+
+.btn_type_favor_sup {
+  background-position: right -1020px;
+  padding-right: 4px;
+}
+
+.btn_type_favor_sub {
+  display: block;
+  background-position: 0 -977px;
+  padding-left: 32px;
+  padding-right: 10px;
+}
+
+/* item_sprite */
+.cover_sprite {
+  display: inline-block;
+  background-image: url(../image/cover_sprite.png);
+}
+
+.icon_sprite {
+  background-image: url(../image/icon_sprite.png);
+  display: inline-block;
+}
+
+.icon_sprite_music {
+  width: 14px;
+  height: 14px;
+  background-position: 0 -24px;
+}
+
+.icon_sprite_play_01 {
+  width: 16px;
+  height: 17px;
+  background-position: 0 0;
+}
+
+/* iconall_sprite */
+
+.iconall_sprite {
+  display: inline-block;
+  background-image: url(../image/iconall_sprite.png);
+}
+
+.iconall_sprite_radio {
+  width: 35px;
+  height: 15px;
+  background-position: -31px -658px;
+}
+
+/* foot_logo_sprite */
+.foot_logo_sprite {
+  display: inline-block;
+  background: url(../image/foot_logo.png);
+  background-size: 110px 552px;
+}
+
+.foot_logo_1 {
+  background-position: -60px -456.5px;
+}
+
+.foot_logo_2 {
+  background-position: -60px -101px;
+}
+
+.foot_logo_3 {
+  background-position: 0 0;
+}
+
+.foot_logo_4 {
+  background-position: -60px -50px;
+}
+
+.foot_logo_5 {
+  background-position: 0 -101px;
+}
+
+/* foot_title_sprite */
+.foot_title_sprite {
+  display: inline-block;
+  background: url(../image/foot_title.png);
+  background-size: 180px 139px;
+}
+
+
+.foot_title_1 {
+  background-position: 0 -108px;
+}
+
+.foot_title_2 {
+  background-position: -1px -91px;
+}
+
+.foot_title_3 {
+  background-position: 0 0;
+}
+
+.foot_title_4 {
+  background-position: 0 -54px;
+}
+
+.foot_title_5 {
+  background-position: -1px -72px;
+}
+
+/* back_sprite */
+.other_sprite {
+  display: block;
+  background: url(../image/other_sprite.png) no-repeat;
+}
+
+.back_top {
+  background-position: -265px -47px;
+}
